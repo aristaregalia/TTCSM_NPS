@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Bureau of Reclamation</origin>
+				<pubdate>October 2005</pubdate>
+				<title>RMNP Vegetation Classification polygons (NAD27)</title>
+				<geoform>vector digital data</geoform>
+				<ftname>ROMOVEG27</ftname>
+				<onlink Sync="TRUE">\\10.147.158.195\ROMN\projects\romn\158_romn_costsurfacemodeldevelopment\data\original_data_romo\romoveg27</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This file represents the vegetation at Rocky Mountain National Park mapped from 2002 1:12,000 scale aerial photography. This effort is a part of the National Vegetation Mapping Program of the National Park Service.</abstract>
+			<purpose>To help meet the management needs of Rocky Mountain National Park and fulfill contract with USGS-NPS National Vegetation Mapping Program.</purpose>
+			<langdata>en</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20011001</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-105.932977</westbc>
+				<eastbc>-105.416401</eastbc>
+				<northbc>40.567765</northbc>
+				<southbc>40.139521</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc>421018.698258</leftbc>
+				<rightbc>464529.097869</rightbc>
+				<topbc>4490649.955094</topbc>
+				<bottombc>4443444.580162</bottombc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>National Vegetation Classification System</themekey>
+				<themekey>National Park Service</themekey>
+				<themekey>Vegetation Associations</themekey>
+				<themekey>USGS-NPS National Vegetation Mapping Program</themekey>
+				<themekey>Land Cover Land Use</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Colorado</placekey>
+				<placekey>Rocky Mountain National Park</placekey>
+				<placekey>Estes Park</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Acknowledgment of the USBR/RSGIG would be appreciated in products derived from these data.  Any person using the information presented here should fully understand the data collection and compilation process before beginning their analysis/use.  The burden of determining fitness for use lies with the user.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Bureau of Reclamation</cntorg>
+					<cntper>David Salas</cntper>
+				</cntorgp>
+				<cntpos>Project Manager</cntpos>
+				<cntvoice>303 445 - 3619</cntvoice>
+				<cntemail>desalas@do.usbr.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>USBR, Denver, CO: David Salas</datacred>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
+		<natvform>Shapefile</natvform>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>This project received an accuracy assessment in the summer of 2004.  1207 accuracy assessment points are recorded.  The results were subject to a fuzzy accuracy assessment.  Fuzzy accuracies are reported for overall map accuracy and individual map unit accuracy.  Overall map accuracy for fuzzy classess five, four and three are 50.3%, 74.7% and 86.7%.  We refer the reader to the vegetation mapping report for information about individual map unit accuracies and more specifics with regard to methods.</attraccr>
+		</attracc>
+		<logic>All polygon features are checked for topology and existence of attributed label points.  Coverage checked for un-intentional dangling arcs.</logic>
+		<complete>All data with a minimum mapping unit of 1/2 hectare that can be interpreted from the aerial photographs are entered into the digital database.  This includes features defined by the NVCS.  Some classes under the MMU are included due to its ease of interpretation and due to the specialty of the class. Road and utility corridors and streams/canals wider that 10 meters are included as polygons in this vegetation coverage.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Unknown</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Not applicable</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccitea>USGS DOQQ</srccitea>
+			</srcinfo>
+			<procstep>
+				<procdesc>MAP CLASSES: Vegetation classification was in accordance with the standards developed under the USGS/NPS Vegetation Mapping Program using the National Vegetation Classification Standard.  Field work (collecting plot data) aided in the development of the vegetation classes.   PHOTO INTERPRETATION:  All map classes were interpreted from 1:12,000-scale, true color aerial photography. Photo-interpretation used the standard identification features such as tone, texture, color, pattern, topographic position, and shadow.  In addition, field sample locations and their vegetation descriptions aided in assigning a map class to each polygon. Photographs were examined using a stereoscope as needed. Linework was created on mylars placed over both the aerial photos and the ortho-photos. The linework was subsequently transferred to a mylar overlaying the color 1:12,00 scale DOQ's acquired for this project.  GIS PROCEDURES: The linework on the mylar ortho-photo overlays were transferred into the GIS database by scanning.  METHOD : The all of the linework at ROMO was transferred via scanning the ortho-photo mylar overlays using a large-format color scanner.  Before the mylar was scanned, it was marked with control points that correspond to the 1000-meter grid embossed on the hard-copy ortho-photos.  GIS software was then used to convert the scanned files from a raster to vector base using centerline commands.  Extensive cleaning, edge matching, and general editing of the digital vectors was completed before polygon topology was created.  Labels were created for each polygon and they were attributed with the necessary vegetation information.  The entire transfer and editing sequence was automated via in-house Arc/INFO AML programs.  OTHER DATA: The park boundary  coverages were acquired from the Park.  A flight line coverage was obtained from the photography vendor.</procdesc>
+				<procdate>2004</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>U.S. Bureau of Reclamation</cntorg>
+							<cntper>David Salas</cntper>
+						</cntorgp>
+						<cntpos>Project Manager</cntpos>
+						<cntvoice>303 445 - 3619</cntvoice>
+						<cntemail>desalas@do.usbr.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\DESALAS\LOCALS~1\Temp\xml6CB0.tmp</srcused>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\rethomas\LOCALS~1\Temp\xmlD0.tmp</srcused>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\rethomas\LOCALS~1\Temp\xmlD3.tmp</srcused>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\rethomas\LOCALS~1\Temp\xmlD6.tmp</srcused>
+				<time>14433100</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\rethomas\LOCALS~1\Temp\xmlF8.tmp</srcused><date Sync="TRUE">20060111</date><time Sync="TRUE">11515500</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Z:\GEODATA\ROMO\LANDCOVER\VegMap\romoveg27</srcused><date Sync="TRUE">20060712</date><time Sync="TRUE">10353700</time></procstep></lineage>
+		<cloud>0</cloud>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf><esriterm Name="Vegetation_Largenew"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000128</absres>
+						<ordres>0.000128</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1927</horizdn>
+				<ellips>Clarke 1866</ellips>
+				<semiaxis>6378206.400000</semiaxis>
+				<denflat>294.978698</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn>GCS_North_American_1927</geogcsn>
+				<projcsn>NAD_1927_UTM_Zone_13N</projcsn>
+			</cordsysn>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altres>0.000010</altres>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="Vegetation_Largenew">
+			<enttyp>
+				<enttypl>ROMOVEG27</enttypl>
+				<enttypd>Vegetation within project mapping boundary</enttypd>
+				<enttypds>U.S. Bureau of Reclamation</enttypds>
+				<enttypc>36157</enttypc>
+				<enttypt>Feature Class</enttypt>
+			</enttyp>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>VEG_CODE</attrlabl>
+				<attrdef>Vegetation code assigned to polygon</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Herbaceous Upland Alpine &gt; 9600 ft</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Herbaceous Upland Alpine Fellfield</edomvd>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Herbaceous Upland Montane  &lt; 9600 ft</edomvd>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Herbaceous Wetland Cross Zone - Marsh</edomvd>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>Herbaceous Wetland Cross Zone - Wetland</edomvd>
+					</edom>
+					<edom>
+						<edomv>7</edomv>
+						<edomvd>Herbaceous Wetland Subalpine / Alpine - Alpine Meadow</edomvd>
+					</edom>
+					<edom>
+						<edomv>9</edomv>
+						<edomvd>Alpine - Ice Field - Glacier</edomvd>
+					</edom>
+					<edom>
+						<edomv>10</edomv>
+						<edomvd>Rock (Alpine-Upper Subalpine)</edomvd>
+					</edom>
+					<edom>
+						<edomv>11</edomv>
+						<edomvd>Rock (Foothill-Lower Subalpine)</edomvd>
+					</edom>
+					<edom>
+						<edomv>120</edomv>
+						<edomvd>Shrub - Riparian - Cross Zone &gt; 9600 ft</edomvd>
+					</edom>
+					<edom>
+						<edomv>121</edomv>
+						<edomvd>Shrub - Riparian - Cross Zone &lt; 9600 ft</edomvd>
+					</edom>
+					<edom>
+						<edomv>13</edomv>
+						<edomvd>Shrub Upland - Alpine</edomvd>
+					</edom>
+					<edom>
+						<edomv>14</edomv>
+						<edomvd>Shrub Upland - Lower Montane</edomvd>
+					</edom>
+					<edom>
+						<edomv>141</edomv>
+						<edomvd>Shrub Upland - Lower Montane - Big Sagebrush</edomvd>
+					</edom>
+					<edom>
+						<edomv>142</edomv>
+						<edomvd>Shrub Upland - Lower Montane - Bitterbrush</edomvd>
+					</edom>
+					<edom>
+						<edomv>15</edomv>
+						<edomvd>Riparian Aspen</edomvd>
+					</edom>
+					<edom>
+						<edomv>18</edomv>
+						<edomvd>Upland Aspen</edomvd>
+					</edom>
+					<edom>
+						<edomv>164</edomv>
+						<edomvd>Mixed - Subalpine Conifer - Aspen</edomvd>
+					</edom>
+					<edom>
+						<edomv>162</edomv>
+						<edomvd>Mixed - Lodgepole - Aspen</edomvd>
+					</edom>
+					<edom>
+						<edomv>163</edomv>
+						<edomvd>Mixed - Douglas-fir - Aspen</edomvd>
+					</edom>
+					<edom>
+						<edomv>161</edomv>
+						<edomvd>Mixed - Ponderosa pine - Aspen</edomvd>
+					</edom>
+					<edom>
+						<edomv>190</edomv>
+						<edomvd>Upper Montane - Mixed Conifer - Riparian &gt; 9600 ft</edomvd>
+					</edom>
+					<edom>
+						<edomv>191</edomv>
+						<edomvd>Upper Montane - Mixed Conifer - Riparian &lt; 9600 ft</edomvd>
+					</edom>
+					<edom>
+						<edomv>20</edomv>
+						<edomvd>Montane Douglas-fir</edomvd>
+					</edom>
+					<edom>
+						<edomv>22</edomv>
+						<edomvd>Subalpine Spruce - Fir</edomvd>
+					</edom>
+					<edom>
+						<edomv>24</edomv>
+						<edomvd>Lodgepole - low elevation &lt; 9500 ft.</edomvd>
+					</edom>
+					<edom>
+						<edomv>23</edomv>
+						<edomvd>Lodgepole - high elevation &gt; 9500 ft.</edomvd>
+					</edom>
+					<edom>
+						<edomv>26</edomv>
+						<edomvd>Lodgepole - Rock</edomvd>
+					</edom>
+					<edom>
+						<edomv>32</edomv>
+						<edomvd>Cottonwood</edomvd>
+					</edom>
+					<edom>
+						<edomv>33</edomv>
+						<edomvd>Juniper Woodland</edomvd>
+					</edom>
+					<edom>
+						<edomv>34</edomv>
+						<edomvd>Ponderosa pine - Graminoid</edomvd>
+					</edom>
+					<edom>
+						<edomv>35</edomv>
+						<edomvd>Ponderosa pine - Rockland</edomvd>
+					</edom>
+					<edom>
+						<edomv>36</edomv>
+						<edomvd>Ponderosa pine - Shrubland</edomvd>
+					</edom>
+					<edom>
+						<edomv>38</edomv>
+						<edomvd>Limber Pine</edomvd>
+					</edom>
+					<edom>
+						<edomv>39</edomv>
+						<edomvd>Ribbon Forests</edomvd>
+					</edom>
+					<edom>
+						<edomv>400</edomv>
+						<edomvd>Krummholz</edomvd>
+					</edom>
+					<edom>
+						<edomv>46</edomv>
+						<edomvd>Talus</edomvd>
+					</edom>
+					<edom>
+						<edomv>48</edomv>
+						<edomvd>Exposed Soil - Man made</edomvd>
+					</edom>
+					<edom>
+						<edomv>49</edomv>
+						<edomvd>Cliff Face - Bare Soil</edomvd>
+					</edom>
+					<edom>
+						<edomv>51</edomv>
+						<edomvd>Streams - Rivers</edomvd>
+					</edom>
+					<edom>
+						<edomv>52</edomv>
+						<edomvd>Natural Lakes - Ponds</edomvd>
+					</edom>
+					<edom>
+						<edomv>53</edomv>
+						<edomvd>Reservoir - Stock Tanks</edomvd>
+					</edom>
+					<edom>
+						<edomv>999</edomv>
+						<edomvd>Un-vegetated Surfaces</edomvd>
+					</edom>
+					<edom>
+						<edomv>43</edomv>
+						<edomvd>Blue Spruce</edomvd>
+					</edom>
+					<edom>
+						<edomv>41</edomv>
+						<edomvd>Disturbance - Dead and Down</edomvd>
+					</edom>
+					<edom>
+						<edomv>47</edomv>
+						<edomvd>Outwash</edomvd>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">VEG_CODE</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>HEIGHT</attrlabl>
+				<attrdef>The physiognomic class is based on the structure of the vegetation as defined by the type, height, and relative percentage of cover ofthe dominant, uppermost life-forms.  There are 6 mutually exclusive classes:</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>&lt; 1 meter</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>1 - 5 meters</edomvd>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>5 - 15 meters</edomvd>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>15 - 30 meters</edomvd>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>&gt; 30 meters</edomvd>
+					</edom>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>No height assigned</edomvd>
+					</edom>
+				</attrdomv>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attalias Sync="TRUE">HEIGHT</attalias><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>DENSITY</attrlabl>
+				<attrdef>Coverage density.  Five mutually exclusive classes.</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Closed Canopy / Continuous 75 - 100%</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Discontinuous 50 - 75%</edomvd>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Dispersed 25 - 50%</edomvd>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Sparse &lt; 25%</edomvd>
+					</edom>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>No density value</edomvd>
+					</edom>
+				</attrdomv>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attalias Sync="TRUE">DENSITY</attalias><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>PATTERN</attrlabl>
+				<attrdef>Coverage Pattern.  Five mutually exclusive classes.</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Evenly Dispersed</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Clumped / Bunched</edomvd>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Gradational / Transitional</edomvd>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Alternating</edomvd>
+					</edom>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>No pattern value</edomvd>
+					</edom>
+				</attrdomv>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attalias Sync="TRUE">PATTERN</attalias><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>AND_LEV1</attrlabl>
+				<attrdef>Anderson Level 1 Land Use and Land Cover Classification System</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Urban or Built-up Land</edomvd>
+						<edomvds>"A Land use and land cover classification system for use with remote sensing data"  Anderson et al 1976.  U.S. Govt. Printing Office.  Geological Survey Professional Paper 964.</edomvds>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Agricultural Land</edomvd>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Rangeland</edomvd>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Forest Land</edomvd>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Water</edomvd>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>Wetland</edomvd>
+					</edom>
+					<edom>
+						<edomv>7</edomv>
+						<edomvd>Barren Land</edomvd>
+					</edom>
+					<edom>
+						<edomv>8</edomv>
+						<edomvd>Tundra</edomvd>
+					</edom>
+					<edom>
+						<edomv>9</edomv>
+						<edomvd>Perennial Snow or Ice</edomvd>
+					</edom>
+				</attrdomv>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attalias Sync="TRUE">AND_LEV1</attalias><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>AND_LEV11</attrlabl>
+				<attrdef>Anderson Level 2 Land Use and Land Cover Classification System</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>11</edomv>
+						<edomvd>Residential</edomvd>
+						<edomvds>"A Land use and land cover classification system for use with remote sensing data"  Anderson et al 1976.  U.S. Govt. Printing Office.  Geological Survey Professional Paper 964.</edomvds>
+					</edom>
+					<edom>
+						<edomv>12</edomv>
+						<edomvd>Commercial and Services</edomvd>
+					</edom>
+					<edom>
+						<edomv>13</edomv>
+						<edomvd>Industrial</edomvd>
+					</edom>
+					<edom>
+						<edomv>14</edomv>
+						<edomvd>Transportation, Communication, and Utilities</edomvd>
+					</edom>
+					<edom>
+						<edomv>15</edomv>
+						<edomvd>Industrial, and Commercial Complexes</edomvd>
+					</edom>
+					<edom>
+						<edomv>16</edomv>
+						<edomvd>Mixed Urban or Built-up Land</edomvd>
+					</edom>
+					<edom>
+						<edomv>17</edomv>
+						<edomvd>Other Urban or Built-up Land</edomvd>
+					</edom>
+					<edom>
+						<edomv>21</edomv>
+						<edomvd>Cropland and Pasture</edomvd>
+					</edom>
+					<edom>
+						<edomv>22</edomv>
+						<edomvd>Orchards, Groves, Vineyards, Nurseries, and Orna</edomvd>
+					</edom>
+					<edom>
+						<edomv>23</edomv>
+						<edomvd>Confined Feeding Operations</edomvd>
+					</edom>
+					<edom>
+						<edomv>24</edomv>
+						<edomvd>Other Agricultural Lands</edomvd>
+					</edom>
+					<edom>
+						<edomv>31</edomv>
+						<edomvd>Herbaceous Rangeland</edomvd>
+					</edom>
+					<edom>
+						<edomv>32</edomv>
+						<edomvd>Shrub and Brush Rangeland</edomvd>
+					</edom>
+					<edom>
+						<edomv>33</edomv>
+						<edomvd>Mixed Rangeland</edomvd>
+					</edom>
+					<edom>
+						<edomv>41</edomv>
+						<edomvd>Deciduous Forest Land</edomvd>
+					</edom>
+					<edom>
+						<edomv>42</edomv>
+						<edomvd>Evergreen Forest Land</edomvd>
+					</edom>
+					<edom>
+						<edomv>43</edomv>
+						<edomvd>Mixed Forest Land</edomvd>
+					</edom>
+					<edom>
+						<edomv>51</edomv>
+						<edomvd>Streams and Canals</edomvd>
+					</edom>
+					<edom>
+						<edomv>52</edomv>
+						<edomvd>Lakes</edomvd>
+					</edom>
+					<edom>
+						<edomv>53</edomv>
+						<edomvd>Reservoirs</edomvd>
+					</edom>
+					<edom>
+						<edomv>54</edomv>
+						<edomvd>Bays and Estuaries</edomvd>
+					</edom>
+					<edom>
+						<edomv>61</edomv>
+						<edomvd>Forested Wetland</edomvd>
+					</edom>
+					<edom>
+						<edomv>62</edomv>
+						<edomvd>Nonforested Wetland</edomvd>
+					</edom>
+					<edom>
+						<edomv>74</edomv>
+						<edomvd>Bare Exposed Rock</edomvd>
+					</edom>
+					<edom>
+						<edomv>75</edomv>
+						<edomvd>Strip Mines, Quarries, and Gravel Pits</edomvd>
+					</edom>
+					<edom>
+						<edomv>76</edomv>
+						<edomvd>Transitional Areas</edomvd>
+					</edom>
+					<edom>
+						<edomv>77</edomv>
+						<edomvd>Mixed Barren Land</edomvd>
+					</edom>
+					<edom>
+						<edomv>81</edomv>
+						<edomvd>Shrub and Brush Tundra</edomvd>
+					</edom>
+					<edom>
+						<edomv>82</edomv>
+						<edomvd>Herbaceous Tundra</edomvd>
+					</edom>
+					<edom>
+						<edomv>83</edomv>
+						<edomvd>Bare Ground Tundra</edomvd>
+					</edom>
+					<edom>
+						<edomv>84</edomv>
+						<edomvd>Wet Tundra</edomvd>
+					</edom>
+					<edom>
+						<edomv>85</edomv>
+						<edomvd>Mixed Tundra</edomvd>
+					</edom>
+					<edom>
+						<edomv>91</edomv>
+						<edomvd>Perennial Snowfields</edomvd>
+					</edom>
+					<edom>
+						<edomv>92</edomv>
+						<edomvd>Perennial Snow or Ice</edomvd>
+					</edom>
+				</attrdomv>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attalias Sync="TRUE">AND_LEV11</attalias><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>HECTARES</attrlabl>
+				<attrdef>Area in Hectares</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>Hectares</edomv>
+						<edomvd>Area in Hectares</edomvd>
+						<edomvds>X Tools Pro for ArcGIS Desktop Version 2.1.0</edomvds>
+					</edom>
+				</attrdomv>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attalias Sync="TRUE">HECTARES</attalias><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">11</attscale></attr>
+			<attr>
+				<attrlabl>SLOPE</attrlabl>
+				<attrdef>Slope in degrees</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Slope</edomv>
+						<edomvd>Slope in Degress</edomvd>
+						<edomvds>Derived from ArcView Script from www.jennessent.com</edomvds>
+					</edom>
+				</attrdomv>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attalias Sync="TRUE">SLOPE</attalias><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">11</attscale></attr>
+			<attr>
+				<attrlabl>ASPECT</attrlabl>
+				<attrdef>Aspect in compass bearings - true</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Aspect</edomv>
+						<edomvd>Aspect in compass bearings (T)</edomvd>
+						<edomvds>Derived from ArcView Script from www.jennessent.com</edomvds>
+					</edom>
+				</attrdomv>
+				<attrtype>Number</attrtype>
+				<attwidth>19</attwidth>
+				<attalias Sync="TRUE">ASPECT</attalias><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">11</attscale></attr>
+			<attr>
+				<attrlabl>ACRES</attrlabl>
+				<attrdef>Area in acres</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Acres</edomv>
+						<edomvd>Area in Acres</edomvd>
+						<edomvds>X Tools Pro for ArcGIS Desktop Version 2.1.0</edomvds>
+					</edom>
+				</attrdomv>
+				<attrtype>Number</attrtype>
+				<attwidth>19</attwidth>
+				<attalias Sync="TRUE">ACRES</attalias><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">11</attscale></attr>
+			<attr>
+				<attrlabl>ELEV_M</attrlabl>
+				<attrdef>Elevation in meters to polygon label point</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>Elevation</edomv>
+						<edomvd>Elevation in Meters</edomvd>
+						<edomvds>Derived from ArcView Script from www.jennessent.com</edomvds>
+					</edom>
+				</attrdomv>
+				<attrtype>Number</attrtype>
+				<attwidth>19</attwidth>
+				<attalias Sync="TRUE">ELEV_M</attalias><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>OLDVEGCODE</attrlabl>
+				<attrdef>Original vegetation code assigned to each polygon - see Veg_code</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>n/a</edomv>
+					</edom>
+				</attrdomv>
+				<attrtype>Number</attrtype>
+				<attwidth>19</attwidth>
+				<attalias Sync="TRUE">OLDVEGCODE</attalias><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>EL_CODE_1</attrlabl>
+				<attrdef>Ecological System Code</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>CES300.728</edomv>
+						<edomvd>North American Alpine Ice Field</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES300.729</edomv>
+						<edomvd>North American Arid West Emergent Marsh</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES304.776</edomv>
+						<edomvd>Inter-Mountain Basins Aspen-Mixed Conifer Forest and Woodland</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES304.785</edomv>
+						<edomvd>Inter-Mountain Basins Montane Sagebrush Steppe</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.032</edomv>
+						<edomvd>Southern Rocky Mountain Ponderosa Pine Woodland</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.809</edomv>
+						<edomvd>Rocky Mountain Alpine Bedrock and Scree</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.810</edomv>
+						<edomvd>Rocky Mountain Alpine Dwarf-Shrubland</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.811</edomv>
+						<edomvd>Rocky Mountain Alpine Fell-Field</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.812</edomv>
+						<edomvd>Rocky Mountain Alpine-Montane Wet Meadow</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.813</edomv>
+						<edomvd>Rocky Mountain Aspen Forest and Woodland</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.815</edomv>
+						<edomvd>Rocky Mountain Cliff, Canyon and Massive Bedrock</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.816</edomv>
+						<edomvd>Rocky Mountain Dry Tundra</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.819</edomv>
+						<edomvd>Rocky Mountain Subalpine-Montane Limber-Bristlecone Pine Woodland</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.820</edomv>
+						<edomvd>Rocky Mountain Lodgepole Pine Forest</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.821</edomv>
+						<edomvd>Rocky Mountain Lower Montane Riparian Woodland and Shrubland</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.822</edomv>
+						<edomvd>Rocky Mountain Lower Montane-Foothill Shrubland</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.823</edomv>
+						<edomvd>Rocky Mountain Dry-Mesic Montane Mixed Conifer Forest and Woodland</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.824</edomv>
+						<edomvd>Southern Rocky Mountain Montane-Subalpine Grassland</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.825</edomv>
+						<edomvd>Rocky Mountain Mesic Montane Mixed Conifer Forest and Woodland</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.826</edomv>
+						<edomvd>Rocky Mountain Ponderosa Pine Savanna</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.828</edomv>
+						<edomvd>Rocky Mountain Subalpine Dry-Mesic Spruce-Fir Forest and Woodland</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.829</edomv>
+						<edomvd>Rocky Mountain Subalpine Mesic Meadow</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.830</edomv>
+						<edomvd>Rocky Mountain Subalpine Mesic Spruce-Fir Forest and Woodland</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.831</edomv>
+						<edomvd>Rocky Mountain Subalpine-Montane Fen</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.833</edomv>
+						<edomvd>Rocky Mountain Subalpine-Montane Riparian Woodland</edomvd>
+					</edom>
+					<edom>
+						<edomv>CES306.955</edomv>
+						<edomvd>Rocky Mountain Foothill Limber Pine-Juniper Woodland</edomvd>
+					</edom>
+				</attrdomv>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<attalias Sync="TRUE">EL_CODE_1</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>EL_CODE_2</attrlabl>
+				<attrdef>Ecological System Code (see EL_CODE_1).  This is a one to many relationship - veg_code to El_code.  Therefore, each veg_code may have membership in one or more El_codes</attrdef>
+				<attrtype>Number</attrtype>
+				<attwidth>4</attwidth>
+				<attalias Sync="TRUE">EL_CODE_2</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>EL_CODE_3</attrlabl>
+				<attrdef>Ecological System Code (see EL_CODE_1).  This is a one to many relationship - veg_code to El_code.  Therefore, each veg_code may have membership in one or more El_codes</attrdef>
+				<attrtype>Number</attrtype>
+				<attwidth>4</attwidth>
+				<attalias Sync="TRUE">EL_CODE_3</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ELEV_FT</attrlabl>
+				<attrdef>Elevation in feet to polygon label point</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Elevation</edomv>
+						<edomvd>Elevation in Feet</edomvd>
+						<edomvds>Derived from ArcView Script from www.jennessent.com</edomvds>
+					</edom>
+				</attrdomv>
+				<attrtype>String</attrtype>
+				<attwidth>12</attwidth>
+				<attalias Sync="TRUE">ELEV_FT</attalias><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>COMMON_MAP</attrlabl>
+				<attrtype>String</attrtype>
+				<attwidth>12</attwidth>
+				<attalias Sync="TRUE">COMMON_MAP</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias>FID</attalias>
+				<attrtype>String</attrtype>
+				<attwidth>64</attwidth>
+				<atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">cost</attrlabl><attalias Sync="TRUE">cost</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">cost_old</attrlabl><attalias Sync="TRUE">cost_old</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">fid2</attrlabl><attalias Sync="TRUE">fid2</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">6</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">toadd</attrlabl><attalias Sync="TRUE">toadd</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>rel_MU2Associations</enttypl>
+			</enttyp>
+			<attr>
+				<attrtype></attrtype>
+			</attr>
+			<attr>
+				<attwidth></attwidth>
+			</attr>
+			<attr>
+				<attrtype></attrtype>
+			</attr>
+			<attr>
+				<attwidth>9</attwidth>
+			</attr>
+			<attr>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+			</attr>
+			<attr>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+			</attr>
+			<attr>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+			</attr>
+			<attr>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+			</attr>
+			<attr>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+				<atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<atnumdec>11</atnumdec>
+				<attrtype>Number</attrtype>
+				<attwidth>19</attwidth>
+			</attr>
+			<attr>
+				<atnumdec>11</atnumdec>
+				<attrtype>Number</attrtype>
+				<attwidth>19</attwidth>
+			</attr>
+			<attr>
+				<atnumdec>11</atnumdec>
+				<attrtype>Number</attrtype>
+				<attwidth>19</attwidth>
+			</attr>
+			<attr>
+				<attrtype>Number</attrtype>
+				<attwidth>19</attwidth>
+			</attr>
+			<attr>
+				<attrtype>Number</attrtype>
+				<attwidth>9</attwidth>
+			</attr>
+			<attr>
+				<attrtype>Number</attrtype>
+				<attwidth>4</attwidth>
+			</attr>
+			<attr>
+				<attrtype>Number</attrtype>
+				<attwidth>4</attwidth>
+			</attr>
+			<attr>
+				<attrtype>String</attrtype>
+				<attwidth>12</attwidth>
+			</attr>
+			<attr>
+				<attrtype>String</attrtype>
+				<attwidth>12</attwidth>
+			</attr>
+			<attr>
+				<attrtype>String</attrtype>
+				<attwidth>12</attwidth>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>Vegetation is depicted as polygons with vegetation type and associated hierarchy as attributes.</eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>54.364</transize>
+					<dssize>72.829</dssize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<time>unknown</time>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd>20060110</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Bureau of Reclamation</cntorg>
+					<cntper>David Salas</cntper>
+				</cntorgp>
+				<cntpos>Project Manager</cntpos>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>REQUIRED: The city of the address.</city>
+					<state>REQUIRED: The state or province of the address.</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>303 445 - 3619</cntvoice>
+				<cntemail>desalas@do.usbr.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta>en</langmeta>
+	</metainfo>
+	<Esri>
+		<ModDate>20140612</ModDate>
+		<ModTime>11285700</ModTime>
+		<SyncDate>20140612</SyncDate>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncTime>11285700</SyncTime>
+		<CreaDate>20060712</CreaDate>
+		<CreaTime>10353700</CreaTime>
+		<MetaID>{0A6D74AA-9CCD-40AE-97C6-BAC152A489DF}</MetaID><DataProperties><itemProps><itemName Sync="TRUE">Vegetation_Largenew</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize><itemLocation><linkage Sync="TRUE">file://\\INP2300FCW15409\I\New Folder\Vegetation_Largenew.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1927</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">NAD_1927_UTM_Zone_13N</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1927_UTM_Zone_13N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1927&amp;quot;,DATUM[&amp;quot;D_North_American_1927&amp;quot;,SPHEROID[&amp;quot;Clarke_1866&amp;quot;,6378206.4,294.9786982]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;false_easting&amp;quot;,500000.0],PARAMETER[&amp;quot;false_northing&amp;quot;,0.0],PARAMETER[&amp;quot;central_meridian&amp;quot;,-105.0],PARAMETER[&amp;quot;scale_factor&amp;quot;,0.9996],PARAMETER[&amp;quot;latitude_of_origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26713]]&lt;/WKT&gt;&lt;XOrigin&gt;-5121000&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998000&lt;/YOrigin&gt;&lt;XYScale&gt;450450052.74759901&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26713&lt;/WKID&gt;&lt;LatestWKID&gt;26713&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><lineage><Process ToolSource="d:\arcgis\desktop10.2\ArcToolbox\Toolboxes\Analysis Tools.tbx\Clip" Date="20140612" Time="112858">Clip romoveg27 Vegetation_Large "I:\New Folder\Vegetation_Largenew.shp" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140612" Time="225452">CalculateField Vegetation cost .2 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140616" Time="072800">CalculateField Vegetation cost .4 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140616" Time="072821">CalculateField Vegetation cost .1 VB #</Process><Process ToolSource="d:\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140618" Time="123051">CalculateField Vegetation cost .7 VB #</Process><Process ToolSource="d:\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140624" Time="081200">CalculateField Vegetation PMTS [cost] VB #</Process><Process ToolSource="d:\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140624" Time="103429">CalculateField Vegetation PMTS .9 VB #</Process></lineage></DataProperties></Esri>
+	<mdDateSt Sync="TRUE">20140612</mdDateSt><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">Vegetation_Largenew</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">421018.698258</westBL><eastBL Sync="TRUE">464529.097869</eastBL><northBL Sync="TRUE">4490649.955094</northBL><southBL Sync="TRUE">4443444.580162</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-105.932977</westBL><eastBL Sync="TRUE">-105.416401</eastBL><northBL Sync="TRUE">40.567765</northBL><southBL Sync="TRUE">40.139521</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="006"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\10.147.158.195\ROMN\projects\romn\158_romn_costsurfacemodeldevelopment\data\original_data_romo\romoveg27</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">72.830</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="26713">NAD_1927_UTM_Zone_13N</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">8.2.6</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="Vegetation_Largenew"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo></metadata>

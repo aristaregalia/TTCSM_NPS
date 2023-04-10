@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Rocky Mountain National Park GIS Program</origin>
+				<pubdate>19950101</pubdate>
+				<title>Streams (ROMO)</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<serinfo>
+					<sername>none</sername>
+					<issue>none</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Estes Park, Colorado</pubplace>
+					<publish>Rocky Mountain National Park GIS Program</publish>
+				</pubinfo>
+				<ftname Sync="TRUE">streams</ftname><onlink Sync="TRUE">\\10.147.158.195\ROMN\projects\romn\158_romn_costsurfacemodeldevelopment\data\original_data\streams</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+
+This data depicts the hydrography (water) of Rocky Mountain National Park.
+It is derived and developed from a number of sources.  These include:
+1:24000-scale USGS Digital Line Graph (DLG) data, 1:24000-scale USFS
+Cartographic Feature File (CFF) data, GPS (Global Positioning System) data, and
+heads-up digitizing using USGS DOQQ data as a backdrop.
+
+This dataset depicts vector and polygon features (streams, lakes, etc.).  Point
+hydrography features (wells, springs, diversions, etc.) are located in the
+"Hydrography Point Features of Rocky Mountain National Park" (Hydro_sites)
+coverage.
+
+This data covers a 39 quad area centered on ROMO.  The 7.5 minute USGS
+quads covered are: Clark Peak, Chambers Lake, Comanche Peak, Pingree
+Park, Crystal Mountain, Mount Richthofen, Fall River Pass, Trail Ridge,
+Estes Park, Glen Haven, Bowen Mountain, Grand Lake, McHenrys Peak,
+Longs Peak, Panorama Peak, Trail Mountain, Shadow Mountain, Isolation
+Peak, Allens Park, Raymond, Granby, Strawberry Lake, Monarch Lake,
+Ward, Gold Hill, Rawah Lakes, Boston Peak, Kinikinik, Rustic, Big
+Narrows, Poudre Park, Buckhorn Mountain, Drake, Pinewood Lake, Lyons,
+Boulder, Laporte, Horsetooth Reservoir, and Masonville.
+</abstract>
+			<purpose>
+
+Data used and/or developed by the Rocky Mountain National Park
+GIS Program is used in the protection and management of
+Rocky Mountain National Park.
+</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>19960101</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-106.011011</westbc>
+				<eastbc Sync="TRUE">-105.123685</eastbc>
+				<northbc Sync="TRUE">40.754177</northbc>
+				<southbc Sync="TRUE">39.995976</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">414648.803662</leftbc><rightbc Sync="TRUE">489442.000000</rightbc><bottombc Sync="TRUE">4427579.184744</bottombc><topbc Sync="TRUE">4511265.000000</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>Rocky Mountain National Park</themekey>
+				<themekey>water</themekey>
+				<themekey>hydrography</themekey>
+				<themekey>river</themekey>
+				<themekey>stream</themekey>
+				<themekey>creek</themekey>
+				<themekey>lake</themekey>
+				<themekey>glacier</themekey>
+				<themekey>reservoir</themekey>
+				<themekey>marsh</themekey>
+				<themekey>ditch</themekey>
+				<themekey>canal</themekey>
+			</theme>
+			<place>
+				<placekt>none</placekt>
+				<placekey>Rocky Mountain National Park</placekey>
+				<placekey>Colorado</placekey>
+				<placekey>Larimer County</placekey>
+				<placekey>Boulder County</placekey>
+				<placekey>Grand County</placekey>
+				<placekey>Estes Park</placekey>
+				<placekey>Grand Lake</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Not for use at scales greater than 1:24000</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>GIS Coordinator</cntper>
+					<cntorg>Rocky Mountain National Park GIS Program</cntorg>
+				</cntperp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>US Hwy 36</address>
+					<city>Estes Park</city>
+					<state>Colorado</state>
+					<postal>80517</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>N/A</cntvoice>
+				<cntfax>(970) 586-1392</cntfax>
+				<cntemail>romo_gis_coordinator@nps.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.0.0.535</native><natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>
+
+The attribute accuracy is deductively estimated to be "good".
+If a higher proof of data accuracy is required, do not use
+this data. User is advised to FULLY and CAREFULLY READ the
+"DISTRIBUTION LIABILITY" section of this metadata before using
+this data.
+</attraccr>
+		</attracc>
+		<logic>Polygon and chain-node topology present.</logic>
+		<complete>
+
+Data is considered complete. Some datasets are parkwide in scope,
+while others were developed and/or updated to address specific
+management concerns within particular spatial coordinates.  Users of
+this data are advised to FULLY and CAREFULLY READ the "DISTRIBUTION
+LIABILITY" section of this metadata before using this data.
+</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>
+
+Horizontal accuracy varies depending on the source of individual
+components within the data.  Data derived from USGS data (DLGs, DEMs, DOQQs)
+are assumed to meet National Map Accuracy standards, though extensive
+experience in using USGS data for the Rocky Mountain National Park
+area has shown that many data components have spatial errors exceeding
+the National Map Accuracy standards. Data produced from GPS
+(Global Positioning System) field data is assumed to be spatially
+accurate to within 2-5 meters.
+</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>
+
+The park acquired 17 1:24000-scale USGS DLG datafiles covering 17 7.5
+minute quads of Rocky Mountain National Park.  This is the only 1:24000-scale
+USGS DLG data available for this area (Aug 1998).  The USGS quads covered
+by this DLG data are: Clark Peak, Chambers Lake, Comanche Peak, Pingree Park,
+Mount Richthofen, Fall River Pass, Trail Ridge, Estes Park, Glen Haven,
+Bowen Mountain, Grand Lake, McHenrys Peak, Panorama Peak, Trail
+Mountain, Shadow Mountain, Isolation Peak, and Allens Park.  This data
+was used as the primary basis for this coverage.
+
+The data was received in DLG-3 optional format and was imported into the
+data base using the ARC/INFO DLGARC command.  The line attributes in
+the resulting "&lt;cover&gt;.ACODE" file were moved to the &lt;cover&gt;.AAT file
+using the ARC/INFO command JOINITEM.  Similarly, the polygon attributes in
+the "&lt;cover&gt;.PCODE" file were moved to the &lt;cover&gt;.PAT file
+using the ARC/INFO command JOINITEM.
+
+Cartographic Feature Files were used to fill in and extend this coverage
+in and around Rocky Mountain National Park.  The 22 USGS 7.5 minute quads
+covered by this CFF data are: Boulder, Gold Hill, Ward, Monarch Lake,
+Strawberry Lake, Granby, Lyons, Raymond, Pinewood Lake, Longs Peak, Masonville,
+Drake, Horsetooth Reservoir, Buckhorn Mountain, Crystal Mountain, Laporte,
+Poudre Park, Big Narrows, Rustic, Kinikinik, Boston Peak, and Rawah Lakes.
+
+"A Cartographic Feature File (CFF) is a digital data file containing a vector
+representation of the point and line features shown on a Forest Service
+Primary Base Series (PBS) map. CFF data are collected by digitizing PBS
+maps and revised using correction guide information provided by field units.
+The feature categories contained in the CFF are: transportation (roads and
+trails), streams and water bodies, political and administrative boundaries,
+land ownership, and other cultural features. Elevation contours, vegetation,
+and text (geographic names, labels, etc.) are not included in the CFF."  For
+more information on USFS CFF data, see
+&lt;URL:http://www.fs.fed.us/outernet/gsc/more_cfff.htm&gt;.
+
+The USFS CFF data was in ARC/INFO export format and was retrieved from the
+Colorado Rockies Regional Cooperative (CORRC) server.  CORRC is on the
+web at &lt;URL:http://corrc.cnr.colostate.edu:8000/&gt;.
+
+The USFS CFF data was imported into 22 separate coverages using the ARC/INFO
+command IMPORT.  These coverages were then combined into one coverage using
+the ARC/INFO command APPEND.  No polygon attributes were present in the CFF
+data.  Attributes were added to vectors and polygons using the ARC/INFO ARCEDIT
+module and ARC/INFO TABLES commands.  Items of CFF origin in the &lt;cover&gt;.AAT
+file were altered to match those created and added to the DLG derived coverage.
+The DLG and CFF derived coverages were joined together using the ARC/INFO
+command APPEND.
+
+Additional vectors were added, and some 1:24000-scale vectors were
+replaced with more accurate vectors created by collecting GPS data.
+Line data were collected using Trimble GPS (Global Positioning
+System) equipment. All data was post-processed with Trimble's software
+resulting in an accuracy of 2-5 meters. Line features were edited and splined
+to clean up vectors using the ARC/INFO ARCEDIT module.  Line features were
+edited and snapped to create polygons using the ARC/INFO ARCEDIT
+module.  Attributes were added to vectors and polygons using the ARC/INFO
+ARCEDIT module and ARC/INFO TABLES commands, though some attributes were
+attached to the data in the field using a pre-defined data dictionary.  See
+&lt;URL:http://www.trimble.com&gt; for additional information regarding the
+specifications of Trimble equipment.  Presently (July 1998) Rocky Mountain
+National Park is using a Trimble Pathfinder Professional and Trimble
+GeoExplorer IIs to collect GPS data.
+
+Additionally, some vectors were added and others adjusted using heads-up
+digitizing technique (digitizing off of the computer screen) using
+1:12000-scale USGS DOQQs as a backdrop.
+
+Additionally, attributes were added to vectors and polygons using the
+ARC/INFO ARCEDIT module and ARC/INFO TABLES commands, though some attributes
+were attached to the data in the field using a pre-defined data dictionary
+when GPS data was collected.  MAJOR and MINOR attributes were derived from the
+text description supplied by the CFF item "CFF_WORD", and the final text
+field DESCRIPTION was populated with the MINOR1 code description as defined in
+the USGS "Digital Line Graphs From 1:24,000-Scale Maps--Data Users Guide 1".
+
+Additionally, the NAME text field was populated with the official USGS place
+name for each feature as identified on paper 1:24000-scale 7.5 minute USGS
+quads.  The SOURCE item and SYMBOL item were also populated at this time.
+</procdesc>
+				<procdate>19960101</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>
+The base template for this metadata created using
+ROMOMETA.AML, a locally modified version (modified June 1998) of
+FGDCMETA.AML ver. 1.2 05/14/98 on ARC/INFO data set
+/db/water/hydro_24k
+</procdesc>
+				<procdate>19980729</procdate>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\rthomas\LOCALS~1\Temp\xmlAB1.tmp</srcused><date Sync="TRUE">20030930</date><time Sync="TRUE">10394400</time></procstep><procstep><procdesc Sync="TRUE">Dataset moved.</procdesc><srcused Sync="TRUE">R:\GIS\VECTOR\ROMO\ROMO _Basics\basics\streams</srcused><date Sync="TRUE">20040725</date><time Sync="TRUE">18373100</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Z:\GEODATA\ROMO\HYDRO\streams</srcused><date Sync="TRUE">20060628</date><time Sync="TRUE">13372000</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="Streams"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="3" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000128</absres>
+						<ordres Sync="TRUE">0.000128</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1927</horizdn>
+				<ellips Sync="TRUE">Clarke 1866</ellips>
+				<semiaxis Sync="TRUE">6378206.400000</semiaxis>
+				<denflat Sync="TRUE">294.978698</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1927</geogcsn><projcsn Sync="TRUE">NAD_1927_UTM_Zone_13N</projcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>
+
+The first four items in the polygon attribute table (PAT), and the
+first seven items in the arc attribute table (AAT) are automatically generated
+by ARC/INFO software.  Contact ESRI or read their literature for detailed
+descriptions of their internal file structure.
+ESRI (Environmental Systems Research Institute, Inc.) can be reached at:
+&lt;URL:http://www.esri.com&gt;.  (Link valid July 1998)
+
+The MAJ0R1 item is the USGS DLG major1 attribute code.
+
+The MINOR1 item is the USGS DLG minor1 attribute code.
+
+The MAJ0R2 item is the USGS DLG major2 attribute code.
+
+The MINOR2 item is the USGS DLG minor2 attribute code.
+
+For more information and examples of attribute codes, see the following
+USGS publication:
+"Digital Line Graphs From 1:24,000-Scale Maps--Data Users Guide 1".
+
+The SYMBOL item is populated by a number that represents either a
+polygon fill or a line symbol.  Used exclusively in cartographic production.
+
+The DESCRIPTION item is a text field that describes the feature in plain
+text.  Descriptions can be a single word or a simple phrase.
+
+The NAME item is a text field populated by the official USGS place name of
+the feature.
+
+The SOURCE item defines the source of individual components within the
+data set.  Examples:
+&gt;DOQQ - arcs, polygons, and/or points derived from features visible on
+&gt;1:12000 USGS digital orthophotoquads
+&gt;1:24K DLG - components originally from 1:24000 USGS digital line graph
+&gt;data
+&gt;GPS - arcs, polygons, and/or points collected with Global Positioning
+&gt;System equipment
+&gt;Other values might exist.
+
+The ACRES item is populated by multiplying the AREA item by
+0.0002471054.
+
+The NOTE item contains any additional pertinent information in text format.
+Additional information can be a single word or a simple phrase.
+</eaover>
+			<eadetcit>none</eadetcit>
+		</overview>
+		<detailed Name="Streams"><enttyp><enttypl Sync="TRUE">Streams</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">FNODE_</attrlabl><attalias Sync="TRUE">FNODE_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">11</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TNODE_</attrlabl><attalias Sync="TRUE">TNODE_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">11</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LPOLY_</attrlabl><attalias Sync="TRUE">LPOLY_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">11</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">RPOLY_</attrlabl><attalias Sync="TRUE">RPOLY_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">11</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LENGTH</attrlabl><attalias Sync="TRUE">LENGTH</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">5</attscale></attr><attr><attrlabl Sync="TRUE">HYDRO_24K_</attrlabl><attalias Sync="TRUE">HYDRO_24K_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">11</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">HYDRO_24K1</attrlabl><attalias Sync="TRUE">HYDRO_24K1</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">11</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MAJOR1</attrlabl><attalias Sync="TRUE">MAJOR1</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">6</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MINOR1</attrlabl><attalias Sync="TRUE">MINOR1</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">6</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MAJOR2</attrlabl><attalias Sync="TRUE">MAJOR2</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">6</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MINOR2</attrlabl><attalias Sync="TRUE">MINOR2</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">6</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DESCRIPTIO</attrlabl><attalias Sync="TRUE">DESCRIPTIO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">35</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">NOTE</attrlabl><attalias Sync="TRUE">NOTE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SYMBOL</attrlabl><attalias Sync="TRUE">SYMBOL</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">3</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">NAME</attrlabl><attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SOURCE</attrlabl><attalias Sync="TRUE">SOURCE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">FISH</attrlabl><attalias Sync="TRUE">FISH</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MILES</attrlabl><attalias Sync="TRUE">MILES</attalias><attrtype Sync="TRUE">Single</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">7</atprecis><attscale Sync="TRUE">2</attscale></attr><attr><attrlabl Sync="TRUE">cost</attrlabl><attalias Sync="TRUE">cost</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">FID2</attrlabl><attalias Sync="TRUE">FID2</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed></eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Rocky Mountain National Park GIS Program</cntorg>
+				</cntorgp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>US Hwy 36</address>
+					<city>Estes Park</city>
+					<state>Colorado</state>
+					<postal>80517</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>N/A</cntvoice>
+				<cntemail>romo_gis_coordinator@nps.gov</cntemail>
+				<cntinst>Contact via email</cntinst>
+			</cntinfo>
+		</distrib>
+		<distliab>
+
+The National Park Service shall not be held liable
+for improper or incorrect use of the data described
+and/or contained herein.  These data and related graphics
+(if available) are not legal documents and are not intended
+to be used as such.
+
+The information contained in these data is dynamic and may
+change over time.  The data are not better than the original
+sources from which they were derived. It is the responsibility
+of the data user to use the data appropriately and consistant within
+the limitations of geospatial data in general and these data
+in particular.  Any related graphics (if available) are intended
+to aid the data user in acquiring relevant data; it is not
+appropriate to use related graphics as data.
+
+The National Park Service gives no warranty, expressed or implied,
+as to the accuracy, reliability, or completeness of these data.
+It is strongly recommended that these data are directly acquired
+from an NPS server and not indirectly through other sources which may
+have changed the data in some way.  Although these data have been
+processed successfully on a computer system at the National Park Service,
+no warranty expressed or implied is made regarding the utility
+of the data on another system or for general or scientific purposes,
+nor shall the act of distribution constitute any such warranty.
+This disclaimer applies both to individual use of the data
+and aggregate use with other data.
+
+All World Wide Web addresses were valid when this metadata was created.
+</distliab>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc><stdorder><digform><digtinfo><transize Sync="TRUE">7.511</transize><dssize Sync="TRUE">7.511</dssize></digtinfo></digform></stdorder></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20050715</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Rocky Mountain National Park GIS Program</cntorg>
+					<cntper>GIS Coordinator</cntper>
+				</cntorgp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>US Hwy 36</address>
+					<city>Estes Park</city>
+					<state>Colorado</state>
+					<postal>80517</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>N/A</cntvoice>
+				<cntfax>(970) 586-1392</cntfax>
+				<cntemail>romo_gis_coordinator@nps.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<langmeta Sync="TRUE">en</langmeta><mettc Sync="TRUE">local time</mettc></metainfo>
+	<Esri><CreaDate>20060628</CreaDate><CreaTime>13372000</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20140611</SyncDate><SyncTime>15562300</SyncTime><ModDate>20140611</ModDate><ModTime>15562300</ModTime><MetaID>{0ED4F7C3-7D87-470C-9582-62DB9937F618}</MetaID><DataProperties><itemProps><itemName Sync="TRUE">Streams</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize><itemLocation><linkage Sync="TRUE">file://\\INP2300FCW15409\D$\RouteTestingWorkspace\ROMO_data\ROMO_TestShapes\Streams.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1927</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">NAD_1927_UTM_Zone_13N</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1927_UTM_Zone_13N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1927&amp;quot;,DATUM[&amp;quot;D_North_American_1927&amp;quot;,SPHEROID[&amp;quot;Clarke_1866&amp;quot;,6378206.4,294.9786982]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-105.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26713]]&lt;/WKT&gt;&lt;XOrigin&gt;-5121000&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998000&lt;/YOrigin&gt;&lt;XYScale&gt;450450052.74759901&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26713&lt;/WKID&gt;&lt;LatestWKID&gt;26713&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><lineage><Process ToolSource="d:\arcgis\desktop10.2\ArcToolbox\Toolboxes\Analysis Tools.tbx\Clip" Date="20140611" Time="155623">Clip streams cutter2 D:\RouteTestingWorkspace\ROMO_data\ROMO_TestShapes\Streams.shp #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140612" Time="224838">CalculateField Streams cost .1 VB #</Process><Process ToolSource="d:\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140624" Time="080846">CalculateField Streams PMTS .1 VB #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230322" Time="151156">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230322" Time="151156">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230322" Time="151157">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="085600">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="085600">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="085601">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="090133">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="090133">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="090133">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="100615">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="100615">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="100616">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="100800">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="100800">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="100801">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="101806">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="101806">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="101806">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="104101">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="104101">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="104102">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="104232">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="104232">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="104233">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="115316">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="115316">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="115317">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="115835">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="115836">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="115836">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="115052">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="115052">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="115053">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="115543">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="115544">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="115544">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="134520">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="134520">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="134521">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="134709">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="134709">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="134710">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="134819">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="134819">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="134819">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="135100">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="135100">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="135101">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="135456">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="135457">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="135458">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="140101">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="140101">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="140103">DeleteField Streams PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230406" Time="124521">AddField Streams PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230406" Time="124521">CalculateField Streams PRIORITY 1.0/!PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230406" Time="124522">DeleteField Streams PRIORITY "Delete Fields"</Process></lineage></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">Streams</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">414648.803662</westBL><eastBL Sync="TRUE">489442</eastBL><northBL Sync="TRUE">4511265</northBL><southBL Sync="TRUE">4427579.184744</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-106.011011</westBL><eastBL Sync="TRUE">-105.123685</eastBL><northBL Sync="TRUE">40.754177</northBL><southBL Sync="TRUE">39.995976</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="006"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\10.147.158.195\ROMN\projects\romn\158_romn_costsurfacemodeldevelopment\data\original_data\streams</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">7.511</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="26713">NAD_1927_UTM_Zone_13N</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">8.2.6</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="Streams"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20140611</mdDateSt></metadata>

@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: NPS Travel Time Cost Surface Model TTCSM
+Version: 20150317
+Summary: Defines a travel time surface for both motorized
+      and foot travel through various landscapes characterized by roads, trails,
+      elevation,  water bodies, and vegetational cover.
+Home-page: http://irmaservices.nps.gov/
+Author: Brent Frakes; National Park Service
+Author-email: brent_frakes@nps.gov
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

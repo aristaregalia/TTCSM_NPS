@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Rocky Mountain National Park GIS Program</origin>
+				<pubdate>19950101</pubdate>
+				<title>Trails Within and Around Rocky Mountain National Park</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<serinfo>
+					<sername>none</sername>
+					<issue>none</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Estes Park, Colorado</pubplace>
+					<publish>Rocky Mountain National Park GIS Program</publish>
+				</pubinfo>
+				<ftname Sync="TRUE">ROMO_Trails</ftname><onlink Sync="TRUE">\\10.147.158.195\ROMN\projects\romn\158_romn_costsurfacemodeldevelopment\data\original_data\ROMO_Trails</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+
+This data depicts trails in and around Rocky Mountain National Park.  It is
+derived and developed from a number of sources.  These include:
+1:100000-scale USGS Digital Line Graph (DLG) data, the
+1:50000-scale USGS map of Rocky Mountain National Park
+(40105-A4-PF-050), GPS (Global Positioning System) data, and heads-up
+digitizing using USGS DOQQ data as a backdrop.
+
+Official names have been added and the sources of individual vectors
+identified.
+</abstract>
+			<purpose>
+
+Data used and/or developed by the Rocky Mountain National Park
+GIS Program is used in the protection and management of
+Rocky Mountain National Park.
+</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>19950101</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-105.919643</westbc>
+				<eastbc Sync="TRUE">-105.497132</eastbc>
+				<northbc Sync="TRUE">40.549845</northbc>
+				<southbc Sync="TRUE">40.161673</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">422127.218750</leftbc><rightbc Sync="TRUE">457665.562500</rightbc><bottombc Sync="TRUE">4445892.000000</bottombc><topbc Sync="TRUE">4488696.500000</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>Rocky Mountain National Park</themekey>
+				<themekey>trails</themekey>
+				<themekey>hiking</themekey>
+				<themekey>horse</themekey>
+				<themekey>transportation</themekey>
+			</theme>
+			<place>
+				<placekt>none</placekt>
+				<placekey>Rocky Mountain National Park</placekey>
+				<placekey>Colorado</placekey>
+				<placekey>Larimer County</placekey>
+				<placekey>Boulder County</placekey>
+				<placekey>Grand County</placekey>
+				<placekey>Estes Park</placekey>
+				<placekey>Grand Lake</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Not for use at scales greater than 1:100000</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>GIS Coordinator</cntper>
+					<cntorg>Rocky Mountain National Park GIS Program</cntorg>
+				</cntperp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>US Hwy 36</address>
+					<city>Estes Park</city>
+					<state>Colorado</state>
+					<postal>80517</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>N/A</cntvoice>
+				<cntfax>(970) 586-1392</cntfax>
+				<cntemail>romo_gis_coordinator@nps.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.0.0.535</native><natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>
+
+The attribute accuracy is deductively estimated to be "good".
+If a higher proof of data accuracy is required, do not use
+this data. User is advised to FULLY and CAREFULLY READ the
+"DISTRIBUTION LIABILITY" section of this metadata before using
+this data.
+</attraccr>
+		</attracc>
+		<logic>Chain-node topology present.</logic>
+		<complete>
+
+Data is considered complete. Some datasets are parkwide in scope,
+while others were developed and/or updated to address specific
+management concerns within particular spatial coordinates.  Users of
+this data are advised to FULLY and CAREFULLY READ the "DISTRIBUTION
+LIABILITY" section of this metadata before using this data.
+</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>
+
+Horizontal accuracy varies depending on the source of individual
+components within the data.  Data derived from USGS data (DLGs, DEMs, DOQQs)
+are assumed to meet National Map Accuracy standards, though extensive
+experience in using USGS data for the Rocky Mountain National Park
+area has shown that many data components have spatial errors exceeding
+the National Map Accuracy standards. Data produced from GPS
+(Global Positioning System) field data is assumed to be spatially
+accurate to within 2-5 meters.
+</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>
+
+A data layer consisting of 1:100000-scale USGS DLG data was queried and
+vectors were extracted to form the base of this data.
+
+Additional vectors were added and some 1:100000-scale vectors were replaced
+with more accurate vectors digitized off of a paper copy of the 1:50000-scale
+USGS Rocky Mountain National Park Map (40105-A4-PF-050).
+
+Additionally, some vectors were added and others adjusted using heads-up
+digitizing technique (digitizing off of the computer screen) using 1:12000-
+scale USGS DOQQs as a backdrop.
+
+Additional vectors were added and some 1:100000-scale and 1:50000-scale
+vectors were replaced with more accurate vectors created by collecting GPS
+data.  Line data were collected using Trimble GPS (Global Positioning
+System) equipment. All data was post-processed with Trimble's software
+resulting in an accuracy of 2-5 meters. Line features were edited and splined
+to clean up vectors using the ARC/INFO ARCEDIT module.  Attributes were
+added to vectors using the ARC/INFO ARCEDIT module
+and ARC/INFO TABLES commands, though some attributes were attached
+to the data in the field using a pre-defined data dictionary.  See
+&lt;URL:http://www.trimble.com&gt; for additional information regarding the
+specifications of Trimble equipment.  Presently (July 1998) Rocky Mountain
+National Park is using a Trimble Pathfinder Professional and Trimble
+GeoExplorer IIs to collect GPS data.
+
+Attributes were added to vectors using the ARC/INFO ARCEDIT module
+and ARC/INFO TABLES commands, though some attributes were attached
+to the data in the field using a pre-defined data dictionary when GPS data
+was collected.
+
+Trails that have been closed or rerouted but that existed in the various
+data sources described above were extracted from this GIS data.  The extracted
+vectors were saved in a new dataset using the ARC/INFO ARCEDIT command PUT,
+and deleted from this coverage.
+</procdesc>
+				<procdate>19950101</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>
+The base template for this metadata created using
+ROMOMETA.AML, a locally modified version (modified June 1998) of
+FGDCMETA.AML ver. 1.2 05/14/98 on ARC/INFO data set
+/db/trans/trails
+</procdesc>
+				<procdate>19980727</procdate>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\rthomas\LOCALS~1\Temp\xmlAB4.tmp</srcused><date Sync="TRUE">20030930</date><time Sync="TRUE">10414000</time></procstep><procstep><procdesc Sync="TRUE">Dataset moved.</procdesc><srcused Sync="TRUE">R:\GIS\VECTOR\ROMO\ROMO _Basics\basics\trails</srcused><date Sync="TRUE">20040725</date><time Sync="TRUE">18393100</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Z:\GEODATA\ROMO\TRANS\ROMO_Trails</srcused><date Sync="TRUE">20060626</date><time Sync="TRUE">16301300</time></procstep><procstep><procdesc Sync="TRUE">Dataset moved.</procdesc><srcused Sync="TRUE">Z:\PROJECTS\ROMN\158_ROMN_CostSurfaceModelDevelopment\Data\ROMO_Trails</srcused><date Sync="TRUE">20060626</date><time Sync="TRUE">16303600</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="Trails"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="3" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000064</absres>
+						<ordres Sync="TRUE">0.000064</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1927</horizdn>
+				<ellips Sync="TRUE">Clarke 1866</ellips>
+				<semiaxis Sync="TRUE">6378206.400000</semiaxis>
+				<denflat Sync="TRUE">294.978698</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1927</geogcsn><projcsn Sync="TRUE">NAD_1927_UTM_Zone_13N</projcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>
+
+The first four items in the polygon attribute table (PAT), and the
+first seven items in the arc attribute table (AAT) are automatically generated
+by ARC/INFO software.  Contact ESRI or read their literature for detailed
+descriptions of their internal file structure.
+ESRI (Environmental Systems Research Institute, Inc.) can be reached at:
+&lt;URL:http://www.esri.com&gt;
+
+The TRAIL-NUM item is a text field populated with the official trail
+alphanumeric "number".
+
+The HORSE-USE item is a text field that emulates a "YES/NO" data type.
+Values indicate whether or not horse use is permitted on the trail.  Two
+values:
+&gt;"Y" (Yes)
+&gt;"N" (No)
+
+The MILES item is populated by multiplying the LENGTH item by
+0.0006213711922.
+
+The FEET item is populated by multiplying the LENGTH item by
+3.280839895.
+
+The SOURCE item defines the source of individual components within the
+data set.  Examples:
+&gt;DOQQ - arcs, polygons, and/or points derived from features visible on
+&gt;1:12000 USGS digital orthophotoquads
+&gt;1:24K DLG - components originally from 1:24000 USGS digital line graph
+&gt;data
+&gt;GPS - arcs, polygons, and/or points collected with Global Positioning
+&gt;System equipment
+&gt;Other values might exist.
+
+The TRAIL-NAME item is a text field populated by the official trail name.
+</eaover>
+			<eadetcit>none</eadetcit>
+		</overview>
+		<detailed Name="Trails"><enttyp><enttypl Sync="TRUE">Trails</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">FNODE_</attrlabl><attalias Sync="TRUE">FNODE_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">11</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TNODE_</attrlabl><attalias Sync="TRUE">TNODE_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">11</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LPOLY_</attrlabl><attalias Sync="TRUE">LPOLY_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">11</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">RPOLY_</attrlabl><attalias Sync="TRUE">RPOLY_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">11</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LENGTH</attrlabl><attalias Sync="TRUE">LENGTH</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">14</atprecis><attscale Sync="TRUE">3</attscale></attr><attr><attrlabl Sync="TRUE">TRAILS_</attrlabl><attalias Sync="TRUE">TRAILS_</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">11</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">TRAILS_ID</attrlabl><attalias Sync="TRUE">TRAILS_ID</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">11</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SEGNAME</attrlabl><attalias Sync="TRUE">SEGNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">60</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SEGMENT</attrlabl><attalias Sync="TRUE">SEGMENT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">UNIT</attrlabl><attalias Sync="TRUE">UNIT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">UNITNUM</attrlabl><attalias Sync="TRUE">UNITNUM</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">2</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">STANDARD</attrlabl><attalias Sync="TRUE">STANDARD</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">USERCLASS</attrlabl><attalias Sync="TRUE">USERCLASS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">HORSE_USE</attrlabl><attalias Sync="TRUE">HORSE_USE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">CDT</attrlabl><attalias Sync="TRUE">CDT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MILES</attrlabl><attalias Sync="TRUE">MILES</attalias><attrtype Sync="TRUE">Single</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">5</atprecis><attscale Sync="TRUE">1</attscale></attr><attr><attrlabl Sync="TRUE">FEET</attrlabl><attalias Sync="TRUE">FEET</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">1</attscale></attr><attr><attrlabl Sync="TRUE">SOURCE</attrlabl><attalias Sync="TRUE">SOURCE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">OLDNAME</attrlabl><attalias Sync="TRUE">OLDNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">41</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">OLDNUM</attrlabl><attalias Sync="TRUE">OLDNUM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">cost</attrlabl><attalias Sync="TRUE">cost</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed></eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Rocky Mountain National Park GIS Program</cntorg>
+				</cntorgp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>US Hwy 36</address>
+					<city>Estes Park</city>
+					<state>Colorado</state>
+					<postal>80517</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>N/A</cntvoice>
+				<cntemail>romo_gis_coordinator@nps.gov</cntemail>
+				<cntinst>Contact via email</cntinst>
+			</cntinfo>
+		</distrib>
+		<distliab>
+
+The National Park Service shall not be held liable
+for improper or incorrect use of the data described
+and/or contained herein.  These data and related graphics
+(if available) are not legal documents and are not intended
+to be used as such.
+
+The information contained in these data is dynamic and may
+change over time.  The data are not better than the original
+sources from which they were derived. It is the responsibility
+of the data user to use the data appropriately and consistant within
+the limitations of geospatial data in general and these data
+in particular.  Any related graphics (if available) are intended
+to aid the data user in acquiring relevant data; it is not
+appropriate to use related graphics as data.
+
+The National Park Service gives no warranty, expressed or implied,
+as to the accuracy, reliability, or completeness of these data.
+It is strongly recommended that these data are directly acquired
+from an NPS server and not indirectly through other sources which may
+have changed the data in some way.  Although these data have been
+processed successfully on a computer system at the National Park Service,
+no warranty expressed or implied is made regarding the utility
+of the data on another system or for general or scientific purposes,
+nor shall the act of distribution constitute any such warranty.
+This disclaimer applies both to individual use of the data
+and aggregate use with other data.
+
+All World Wide Web addresses were valid when this metadata was created.
+</distliab>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc><stdorder><digform><digtinfo><transize Sync="TRUE">0.576</transize><dssize Sync="TRUE">0.576</dssize></digtinfo></digform></stdorder></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20050831</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Rocky Mountain National Park GIS Program</cntorg>
+					<cntper>GIS Coordinator</cntper>
+				</cntorgp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>US Hwy 36</address>
+					<city>Estes Park</city>
+					<state>Colorado</state>
+					<postal>80517</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>N/A</cntvoice>
+				<cntfax>(970) 586-1392</cntfax>
+				<cntemail>romo_gis_coordinator@nps.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<langmeta Sync="TRUE">en</langmeta><mettc Sync="TRUE">local time</mettc></metainfo>
+	<Esri><CreaDate>20060626</CreaDate><CreaTime>16301300</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20140611</SyncDate><SyncTime>15570700</SyncTime><ModDate>20140611</ModDate><ModTime>15570700</ModTime><MetaID>{4E028F14-E2D7-4E71-8A5F-C7AC081E7A23}</MetaID><DataProperties><itemProps><itemName Sync="TRUE">Trails</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize><itemLocation><linkage Sync="TRUE">file://\\INP2300FCW15409\D$\RouteTestingWorkspace\ROMO_data\ROMO_TestShapes\Trails.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1927</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">NAD_1927_UTM_Zone_13N</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1927_UTM_Zone_13N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1927&amp;quot;,DATUM[&amp;quot;D_North_American_1927&amp;quot;,SPHEROID[&amp;quot;Clarke_1866&amp;quot;,6378206.4,294.9786982]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-105.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26713]]&lt;/WKT&gt;&lt;XOrigin&gt;-5121000&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998000&lt;/YOrigin&gt;&lt;XYScale&gt;450450052.74759901&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26713&lt;/WKID&gt;&lt;LatestWKID&gt;26713&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><lineage><Process ToolSource="d:\arcgis\desktop10.2\ArcToolbox\Toolboxes\Analysis Tools.tbx\Clip" Date="20140611" Time="155707">Clip ROMO_Trails cutter2 D:\RouteTestingWorkspace\ROMO_data\ROMO_TestShapes\Trails.shp #</Process><Process ToolSource="d:\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140624" Time="081003">CalculateField Trails PMTS 1 VB #</Process><Process ToolSource="d:\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140624" Time="081023">CalculateField Trails PMTS .8 VB #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230322" Time="151151">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230322" Time="151151">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230322" Time="151152">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="085556">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="085556">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="085557">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="090129">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="090129">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="090129">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="100610">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="100610">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="100612">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="100755">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="100755">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="100756">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="101801">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="101801">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="101802">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="104057">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="104057">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="104057">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="104227">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="104227">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="104228">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="115308">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="115309">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="115311">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230324" Time="115828">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230324" Time="115828">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230324" Time="115830">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="115047">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="115047">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="115048">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="115538">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="115538">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="115539">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="134513">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="134513">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="134513">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="134702">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="134702">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="134703">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="134813">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="134813">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="134813">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="135051">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="135051">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="135053">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="135448">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="135448">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="135450">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230330" Time="140051">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230330" Time="140052">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230330" Time="140054">DeleteField Trails PRIORITY "Delete Fields"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20230406" Time="124512">AddField Trails PRIORITY "Float (single precision)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20230406" Time="124513">CalculateField Trails PRIORITY !PMTS! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20230406" Time="124514">DeleteField Trails PRIORITY "Delete Fields"</Process></lineage></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">Trails</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">422127.21875</westBL><eastBL Sync="TRUE">457665.5625</eastBL><northBL Sync="TRUE">4488696.5</northBL><southBL Sync="TRUE">4445892</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-105.919643</westBL><eastBL Sync="TRUE">-105.497132</eastBL><northBL Sync="TRUE">40.549845</northBL><southBL Sync="TRUE">40.161673</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="006"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\10.147.158.195\ROMN\projects\romn\158_romn_costsurfacemodeldevelopment\data\original_data\ROMO_Trails</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.576</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="26713">NAD_1927_UTM_Zone_13N</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">8.2.6</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="Trails"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20140611</mdDateSt></metadata>
