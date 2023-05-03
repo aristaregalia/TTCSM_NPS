@@ -143,6 +143,7 @@ if __name__ == '__main__':
 
     base_layers = [
         (base + 'Streams.shp', 'PMTS'),
+       # (base + 'lake.shp', 'PMTS'),
         (base + 'Landcover.shp', 'PMTS')]
     network_layers = [(base + 'Roads.shp', 'Speed_mph')]
     trail_layers = [(base + 'Trails.shp', 'PMTS')]

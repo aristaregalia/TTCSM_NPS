@@ -36,7 +36,7 @@ class path_distance(cost_distance):
         self._set_vertical_factor()
 
     def _set_vertical_factor(self):
-        '''Do all of the initialization of the vertical factor information'''
+        """Do all of the initialization of the vertical factor information"""
         self.pathDistanceTypes = {'binary': self.arcpy.sa.VfBinary,
                                   'linear': self.arcpy.sa.VfLinear,
                                   'symmetrical linear ': self.arcpy.sa.VfSymLinear,

@@ -145,8 +145,8 @@ class TTCSM(object):
         return self.cost_distance
 
     def _create_travel_speed_surface_layer(self):
-      #  tcs = travel_speed_surface.travel_speed_surface(
-      tcs = travel_speed_surface(
+        #  tcs = travel_speed_surface.travel_speed_surface(
+        tcs = travel_speed_surface(
             base_layers=self.base_layers,
             network_layers=self.network_layers,
             trail_layers=self.trail_layers,
@@ -154,7 +154,7 @@ class TTCSM(object):
             DEM=self.DEM,
             workspace=self.workspace,
             walking_speed_mph=self.walking_speed_mph)
-      self.travelSpeed = tcs.create()
+        self.travelSpeed = tcs.create()
 
     def _create_cost_distance_layer(self):
         if self.verticalGraphType is None:
@@ -189,21 +189,21 @@ class TTCSM(object):
 
     def _create_least_cost_path(self):
         if self.destinations is not None and self.new_polyline_feature is not None:
-            #lcp = least_cost_path.least_cost_path(
-             lcp=least_cost_path(
+            lcp = least_cost_path(
                 startLocation=self.startLocation,
                 new_polyline_feature=self.new_polyline_feature,
                 travelCost=self.cost_distance,
                 destinations=self.destinations,
                 backlink=self.out_backlink_raster,
                 workspace=self.workspace)
-             results = lcp.create()
+            results = lcp.create()
 
 
 if __name__ == '__main__':
     workspace = 'C:\\TEMP\\'
     base = 'C:\\CODE\\CostSurface\\TestingData\\'
     base_layers = [
+        (base + 'lake.shp', 'PMTS'),
         (base + 'Streams.shp', 'PMTS'),
         (base + 'Landcover.shp', 'PMTS')]
     network_layers = [(base + 'Roads.shp', 'Speed_mph')]

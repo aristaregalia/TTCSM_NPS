@@ -3,7 +3,6 @@ import os
 import arcpy as arcpy0
 import TTCSM.TTCSM_GUI as gui
 
-
 def _debug(fileLocation, message=None):
     """
     Optional debugger to write arguments to a specified file and folder location

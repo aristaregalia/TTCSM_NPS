@@ -69,14 +69,14 @@ if __name__ == '__main__':
     # args = {'arg8': '-Select Field-', 'arg9': 'C:\\TEST\\TTCSM_Frakes.gdb\\Trail', 'arg0': 'C:\\TEST\\workspace', 'arg1': 'C:\\TEST\\TTCSM_Frakes.gdb\\Points\\Start_Point', 'arg2': 'C:\\TEST\\TTCSM_Frakes.gdb\\dem', 'arg3': 'C:\\TEST\\workspace\\newCF2.tif', 'arg4': '3.1', 'arg5': '31', 'arg6': '28800', 'arg7': '', 'arg12': '-Select Field-', 'arg13': '', 'arg10': 'Speed_Travel', 'arg11': '', 'arg16': '-Select-', 'arg17': '', 'arg14': '-Select Field-', 'arg15': '', 'arg18': '', 'arg19': ''}
     # args = {'arg8': '-Select Field-', 'arg9': 'C:\\TEST\\TTCSM_Frakes.gdb\\Trail', 'arg0': 'C:\\TEMP', 'arg1': 'C:\\TEST\\TTCSM_Frakes.gdb\\Points\\Start_Point', 'arg2': 'C:\\TEST\\TTCSM_Frakes.gdb\\DEM', 'arg3': 'C:\\TEMP\\cs.tif', 'arg4': '3.1', 'arg5': '31', 'arg6': '28800', 'arg7': '', 'arg12': '-Select Field-', 'arg13': '', 'arg10': 'Speed_Travel', 'arg11': '', 'arg16': 'Speed', 'arg17': '', 'arg14': '-Select Field-', 'arg15': 'C:\\TEST\\TTCSM_Frakes.gdb\\LandCover', 'arg18': '', 'arg19': ''}
     # process_request(args)
-
+    #
     args = {'arg8': 'Speed_mph', 'arg9': 'C:\\TestingData\\TestingData\\Trails.shp',
             'arg0': 'C:\\TestingData\\workspace',
             'arg1': 'C:\\TestingData\\TestingData\\Starting_Points.shp', 'arg2': 'C:\\TestingData\\TestingData\\dem',
-            'arg3': 'C:\\TestingData\\workspace\\TTCSM_OUTPUT.gdb\\CostSurface_1lake', 'arg4': '3.1', 'arg5': '31',
+            'arg3': 'C:\\TestingData\\workspace\\TTCSM_OUTPUT.gdb\\CostSurfPMTS0new3', 'arg4': '3.1', 'arg5': '31',
             'arg6': '28800', 'arg7': 'C:\\TestingData\\TestingData\\Roads.shp',
-            'arg12': 'PMTS', 'arg13': 'C:\\TestingData\\TestingData\\lake.shp', 'arg10': 'PMTS', 'arg11': '', 'arg16': 'PMTS', 'arg17': 'Linear',
+            'arg12': 'PMTS', 'arg13': 'C:\\PROJECTS\\TTCSM_NEW_test\\TTCSM_NEW_test.gdb\\Lakes_test_1', 'arg10': 'PMTS', 'arg11': 'C:\\TestingData\\TestingData\\Streams.shp', 'arg16': 'PMTS', 'arg17': 'Linear',
             'arg14': 'PMTS', 'arg15': 'C:\\TestingData\\TestingData\\Landcover.shp',
             'arg18': 'C:\\TestingData\\TestingData\\Destinations.shp',
-            'arg19': 'C:\\TestingData\\workspace\\TTCSM_OUTPUT.gdb\\CostSurfacelinear_1Lake'}
+            'arg19': 'C:\\TestingData\\workspace\\TTCSM_OUTPUT.gdb\\CostPMTS0new3'}
     process_request(args)
