@@ -55,17 +55,16 @@ class feature_stacker(root):
                     featureName = self.arcpy.Raster(featureName)
 
                     featureName = os.path.basename(line[0]).split('.')[0] + self.ras_ext  #KRS Added 4/25/2023
-                    self.arcpy.conversion.PolygonToRaster(line[0], line[1], featureName, 'MAXIMUM_COMBINED_AREA',
-                                                          '', self.DEM)  #KRS Added 4/25/2023
+                    self.arcpy.conversion.PolygonToRaster(line[0], line[1], featureName, 'MAXIMUM_COMBINED_AREA', '', self.DEM)  #KRS Added 4/25/2023
                 except:
                     featureName = os.path.basename(line[0]).split('.')[0] + self.ras_ext
                     if self.arcpy.Describe(line[0]).shapeType == 'Polyline':
                         self.arcpy.PolylineToRaster_conversion(line[0], line[1], featureName, 'MAXIMUM_COMBINED_LENGTH',
                                                                'PRIORITY', self.DEM)
                         self.arcpy.DeleteField_management(line[0], ['PRIORITY'])
-                    else:
-                        self.arcpy.PolygonToRaster_conversion(line[0], line[1], featureName, 'MAXIMUM_COMBINED_AREA',
-                                                              '', self.DEM)
+                    # else:
+                    #     self.arcpy.PolygonToRaster_conversion(line[0], line[1], featureName, 'MAXIMUM_COMBINED_AREA',
+                    #                                           '', self.DEM)
                     featureName = self.arcpy.Raster(featureName)
             self.gridded_layers.append(featureName)
         self.gridded_layers.reverse()
