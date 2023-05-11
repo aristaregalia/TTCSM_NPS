@@ -34,7 +34,6 @@ class base_speed_surface(network_speed_surface):
         return self.new_surface
 
     def _calc_slope_walking_speed(self):
-        #sw = slope_walker.slope_walker(
         sw =slope_walker(
             DEM=self.DEM
             , walking_speed_mph=self.walking_speed_mph
@@ -43,10 +42,10 @@ class base_speed_surface(network_speed_surface):
         self.slope_walk_speed = sw.create()
 
     def _calc_resistance(self):
-        '''
+        """
             Divide the walking speed by the resitsance.
             If the resistance is zero, set walking speed to zero.
-            '''
+            """
         self.new_surface = self.slope_walk_speed / self.stacked_layers
 
     def _set_zero_to_Null(self):
@@ -54,9 +53,9 @@ class base_speed_surface(network_speed_surface):
         self.new_surface = self.arcpy.sa.SetNull(hasData != 1, self.new_surface)
 
     def _add_priority_field(self):
-        '''
+        """
             Adds priority field to be used in feature stacker conversion of vector to raster
-            '''
+            """
         for line in self.base_layers:
             try:
                 if self.arcpy.Describe(line[0]).shapeType == 'Polyline':

@@ -8,11 +8,8 @@ class feature_stacker(root):
     For a given set of features (raster or vector):
         1. Converts them to raster with the same cell size and extent
         2. Stacks them in order (with last in list being on the bottom)
-
     Feature_List must be a set of feature/attribute pairs used to convert to raster:
         feature_list =  [('C:\CODE\CostSurface\TestingData\Roads.shp', 'Speed')]
-
-
     CREATES
      Single grid representing the stacked features
     """
@@ -57,9 +54,8 @@ class feature_stacker(root):
                 try:
                     featureName = self.arcpy.Raster(featureName)
 
-                    featureNameNoFail = os.path.basename(line[0]).split('.')[0] + self.ras_ext  #KRS Added 4/25/2023
-                    self.arcpy.conversion.PolygonToRaster(line[0], line[1], featureNameNoFail, 'MAXIMUM_COMBINED_AREA',
-                                                          '', self.DEM)  #KRS Added 4/25/2023
+                    featureName = os.path.basename(line[0]).split('.')[0] + self.ras_ext  #KRS Added 4/25/2023
+                    self.arcpy.conversion.PolygonToRaster(line[0], line[1], featureName, 'MAXIMUM_COMBINED_AREA', '', self.DEM)  #KRS Added 4/25/2023
                 except:
                     featureName = os.path.basename(line[0]).split('.')[0] + self.ras_ext
                     if self.arcpy.Describe(line[0]).shapeType == 'Polyline':

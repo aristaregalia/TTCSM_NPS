@@ -36,17 +36,17 @@ class network_speed_surface(root):
         self.stacked_layers = self.nss.create()
 
     def _convert_mpH_to_secM(self):
-        '''
+        """
         Converts from miles/per hour to seconds/per meter
-        '''
+        """
         #c = uc.unit_converter(self.stacked_layers)
         c = uc(self.stacked_layers)
         self.new_surface = c.milesHour_to_secondsMeter()
 
     def _add_priority_field(self):
-        '''
+        """
         Adds priority field to be used in feature stacker conversion of vector to raster
-        '''
+        """
         for line in self.network_layers:
             self.arcpy.AddField_management(line[0], 'PRIORITY', 'LONG')
             self.arcpy.CalculateField_management(line[0], 'PRIORITY', '!' + line[1] + '!', 'PYTHON_9.3')
