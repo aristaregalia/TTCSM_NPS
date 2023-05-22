@@ -17,3 +17,7 @@ This folder contains geospatial data for testing the model in the form of raster
 Python toolbox used for debugging model. 
 ## TTCSM_NPS/TTCSM_Toolbox.tbx
 Toolbox for running the model through the ArcGIS Pro GUI.
+
+## Credits ##
+Authors of the original code: Brent Frakes; Thomas Flowe; Kirk R. Sherrill
+</br> Authors of 3.x migration: Arista Regalia; Kirk R. Sherrill
