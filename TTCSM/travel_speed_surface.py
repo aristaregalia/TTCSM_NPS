@@ -4,8 +4,11 @@ from TTCSM.trail_speed_surface import trail_speed_surface
 from TTCSM.network_speed_surface import network_speed_surface as nss
 from TTCSM.base_speed_surface import base_speed_surface as bss
 from TTCSM.root import root
-from TTCSM.unit_converter import unit_converter as uc
+import TTCSM.unit_converter as uc
+#from TTCSM.unit_converter import unit_converter as uc
+#from TTCSM.common import as cmn
 
+import TTCSM.common as cmn
 
 class travel_speed_surface(root):
     """
