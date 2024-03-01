@@ -80,26 +80,26 @@ if __name__ == '__main__':
     #         'arg18': 'C:\\TestingData\\TestingData\\Destinations.shp',
     #         'arg19': 'C:\\TestingData\\workspace\\TTCSM_OUTPUT.gdb\\CostPMTS0new3'}
 
-    args = {'arg0': 'C:\\ROMN\GIS\\TTCSM\\Python3Arista\\workspace',
-            'arg1': 'C:\\ROMN\\GIS\\TTCSM\\Python3Arista\\TestingData\\Starting_Points.shp',
-            'arg2': 'C:\\ROMN\\GIS\\TTCSM\\Python3Arista\\TestingData\\dem',
-            'arg3': 'C:\\ROMN\\GIS\\TTCSM\\Python3Arista\\Python3Arista.gdb\\CS_Linear_Lakes_Dest4_Python3',
+    args = {'arg0': 'C:\\Users\\KSherrill\\OneDrive - DOI\\SFAN\\VitalSigns\\Salmonids\\Projects\\Aquatics Inventory\\TTCSM\\TTCSM_AquaticInventory\\workspace',
+            'arg1': 'C:\\Users\\KSherrill\\OneDrive - DOI\\SFAN\\VitalSigns\\Salmonids\\Projects\\Aquatics Inventory\\TTCSM\\TTCSM_AquaticInventory\TTCSM_AquaticInventoryUTM.gdb\\eDNA_StartingPoints',
+            'arg2': 'C:\\Users\\KSherrill\\OneDrive - DOI\\SFAN\VitalSigns\\Salmonids\\Projects\\Aquatics Inventory\\TTCSM\\TTCSM_AquaticInventory\\pogo_dem_utm',
+            'arg3': 'C:\\Users\\KSherrill\\OneDrive - DOI\\SFAN\\VitalSigns\\Salmonids\\Projects\\Aquatics Inventory\\TTCSM\\TTCSM_AquaticInventory\\TTCSM_Output.gdb\\CostSurface_POREv1_SongerVeg',
             'arg4': '3.1',
-            'arg5': '31',
+            'arg5': '30',
             'arg6': '28800',
-            'arg7': 'C:\\ROMN\\GIS\\TTCSM\\Python3Arista\\TestingData\\Roads.shp',
+            'arg7': 'C:\\Users\\KSherrill\\OneDrive - DOI\\SFAN\\VitalSigns\\Salmonids\\Projects\\Aquatics Inventory\\TTCSM\\TTCSM_AquaticInventory\TTCSM_AquaticInventoryUTM.gdb\\Roads_PORE_GOGA_MUWO_UTM',
             'arg8': 'Speed_mph',
-            'arg9': 'C:\\ROMN\\GIS\\TTCSM\\Python3Arista\\TestingData\\Trails.shp',
+            'arg9': 'C:\\Users\\KSherrill\\OneDrive - DOI\\SFAN\\VitalSigns\\Salmonids\\Projects\\Aquatics Inventory\\TTCSM\\TTCSM_AquaticInventory\TTCSM_AquaticInventoryUTM.gdb\\Trails_PORE_GOGA_MUWO_UTM',
             'arg10': 'PMTS',
-            'arg11': 'C:\\ROMN\\GIS\\TTCSM\\Python3Arista\\TestingData\\Streams.shp',
+            'arg11': 'C:\\Users\\KSherrill\\OneDrive - DOI\\SFAN\\VitalSigns\\Salmonids\\Projects\\Aquatics Inventory\\TTCSM\\TTCSM_AquaticInventory\TTCSM_AquaticInventoryUTM.gdb\\NPDPlusFlowLine_ClippedSFAN_AOASmaller',
             'arg12': 'PMTS',
-            'arg13': 'C:\\ROMN\\GIS\\TTCSM\\Python3Arista\\Python3Arista.gdb\\LakesPython3Arista',
+            'arg13': 'C:\\Users\\KSherrill\\OneDrive - DOI\\SFAN\\VitalSigns\\Salmonids\\Projects\\Aquatics Inventory\\TTCSM\\TTCSM_AquaticInventory\TTCSM_AquaticInventoryUTM.gdb\\NHDWaterbody_SFBasin_SFAN_Clip',
             'arg14': 'PMTS',
-            'arg15': 'C:\\ROMN\\GIS\\TTCSM\\Python3Arista\\TestingData\\Landcover.shp',
+            'arg15': 'C:\\Users\\KSherrill\\OneDrive - DOI\\SFAN\\VitalSigns\\Salmonids\\Projects\\Aquatics Inventory\\TTCSM\\TTCSM_AquaticInventory\TTCSM_AquaticInventoryUTM.gdb\\PORE_GOGA_VegPolys_UTM_wPMTS',
             'arg16': 'PMTS',
             'arg17': 'Linear',
-            'arg18': 'C:\\ROMN\\GIS\\TTCSM\\Python3Arista\\TestingData\\Destinations.shp',
-            'arg19': 'C:\\ROMN\\GIS\\TTCSM\\Python3Arista\\Python3Arista.gdb\\CS_Linear_Lakes_Dest4_Python3_Script'}
+            'arg18': 'C:\\Users\\KSherrill\\OneDrive - DOI\\SFAN\\VitalSigns\\Salmonids\\Projects\\Aquatics Inventory\\TTCSM\\TTCSM_AquaticInventory\TTCSM_AquaticInventoryUTM.gdb\\eDNAtlas_SampleGrid_Priority_Creeks_UTM_w2023',
+            'arg19': 'C:\\Users\\KSherrill\\OneDrive - DOI\\SFAN\\VitalSigns\\Salmonids\\Projects\\Aquatics Inventory\\TTCSM\\TTCSM_AquaticInventory\\TTCSM_Output.gdb\\LCP_CS_POREv1_SongerVeg'}
 
 
     process_request(args)
